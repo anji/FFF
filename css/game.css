@@ -1,0 +1,177 @@
+.container{
+	
+    width:240px;
+    height:240px;
+    position:relative;
+    border: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:20px;
+    background-image: -webkit-gradient(radial, center center, 0, center center, 140, color-stop(0, #FFFF70), color-stop(1, #A7CAD9));
+    line-height: 80px;
+    font-size : 30px;
+    font-family: Courier New;
+    }
+
+header {
+	font-family: "Comic Sans MS";
+    font-size : 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dialogbox {
+	position: absolute;
+	left: 0px;
+	top: 220px;
+	width : 275px;
+	height : 60px;
+	z-index : 100;
+	display: block;
+	border-style:none
+}
+
+#time_up {
+	position: absolute;
+	left: 0px;
+	top: 220px;
+	width : 275px;
+	height : 60px;
+	z-index : 100;
+	display: none;
+	border-style:none
+}
+
+
+#line1 {
+	display: inline-block;
+}
+
+
+
+body {
+	background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #249C48), color-stop(1, #5771D9));
+	
+
+    
+}
+
+#scroller {
+	background-image: -webkit-gradient(radial, center center, 0, center center, 140, color-stop(0, #FFFFFF), color-stop(1, #CBCDF5));
+	border: 2px solid red;
+	height: 40px;
+	border-radius: 10%;
+	font-family: "Lucida Console";
+    font-size : 30px;
+    margin-top: 20px;
+	
+}
+ 
+ #scorecounter p {
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+
+ 
+ #countup p {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 20px;
+}
+ 
+ #a1{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 0px;
+     top: 0px;
+     text-align: center;
+     vertical-align: middle;
+     position: absolute;
+     
+ }
+ #a2{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 80px;
+     top: 0px;
+     text-align: center;
+     position: absolute;
+ }
+ #a3{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 160px;
+     top: 0px;
+     text-align: center;
+     position: absolute;
+ }
+ 
+ 
+ 
+ 
+ #b1{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 0px;
+     top: 80px;
+     text-align: center;
+     position: absolute;
+ }
+ #b2{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 80px;
+     top: 80px;
+     text-align: center;
+     position: absolute;
+ }
+ #b3{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 160px;
+     top: 80px;
+     text-align: center;
+     position: absolute;
+ }
+ 
+ #c1{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 0px;
+     top: 160px;
+     text-align: center;
+     position: absolute;
+ }
+ #c2{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 80px;
+     top: 160px;
+     text-align: center;
+     position: absolute;
+ }
+ #c3{  
+     width:80px;
+     height:80px;
+     border: 2px solid;
+     left: 160px;
+     top: 160px;
+     text-align: center;
+     position: absolute;
+ }
+ 
+ 
+ 
+ 

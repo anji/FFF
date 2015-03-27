@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport"
+	content="width=device-width,initial-scale=1.0, user-scalable=no">
+<script src="js/game2.js"></script>
+<script src="js/jquery-1.11.2.js"></script>
+<link rel="stylesheet" href="css/game.css">
+<head class="first">
+
+</head>
+
+<body class="second">
+
+	<div id="header">
+
+
+		<div id="line1">
+			<div id="scorecounter">
+				Score :
+				<p id="score" data-value=0>0</p>
+			</div>
+			<div id="life">
+
+				<img id="life1" src="images/lifes.png" alt="images/tizen_32.png"
+					height="20px" width="20px" /> <img id="life2"
+					src="images/lifes.png" alt="images/tizen_32.png" height="20px"
+					width="20px" /> <img id="life3" src="images/lifes.png"
+					alt="images/tizen_32.png" height="20px" width="20px" />
+			</div>
+
+		</div>
+
+		<div id="counter">1:00</div>
+
+		<marquee id="scroller" bgcolor=#FFFFFF direction=left
+			scrolldelay="200"marging:0px;> </marquee>
+	</div>
+
+	<dialog id="dialogbox">
+	<div id="rule"></div>
+
+
+	<button id="start" type="button" onclick="start()">Start</button>
+	</dialog>
+	
+	<dialog id="time_up" >
+				<label id="score_timeup"></label>
+	        	<label id="lose_text">You Lose!!</label>
+	        	<button id="gameover_timeup" type="button" onclick="gameover()">Start</button>
+	</dialog>
+
+	<div class="container">
+
+		<div class="box">
+			<div id="a1" onclick="myFunction_a1()" data-value=1>1</div>
+			<div id="a2" onclick="myFunction_a2()" data-value=2>2</div>
+			<div id="a3" onclick="myFunction_a3()" data-value=3>3</div>
+
+
+			<div id="b1" onclick="myFunction_b1()" data-value=4>4</div>
+			<div id="b2" onclick="myFunction_b2()" data-value=5>5</div>
+			<div id="b3" onclick="myFunction_b3()" data-value=6>6</div>
+
+			<div id="c1" onclick="myFunction_c1()" data-value=7>7</div>
+			<div id="c2" onclick="myFunction_c2()" data-value=8>8</div>
+			<div id="c3" onclick="myFunction_c3()" data-value=9>X</div>
+		</div>
+	</div>
+
+	<div id="footer"></div>
+
+</body>
+
+
+
+​
+
+</body>
+</html>
